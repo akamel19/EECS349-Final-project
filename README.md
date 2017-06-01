@@ -59,30 +59,4 @@ As shown above, a J48 Decision Tree has the greatest accuracy, precision, and re
 
 ![alt text](https://github.com/akamel19/EECS349-Final-project/blob/master/Tree.jpg?raw=true)
 
-From this, we can model a team’s likelihood of finishing a season ranked in the AP Poll consistent for 97.42% of our testing data. 
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-
+While analyzing results, we were initially startled by the simplicity of the tree, without sacrificing accuracy; in particular, the inclusion of solely two attributes was cause for concern. To further investigate this situation, we again trained and tested our data on a J48 Decision Tree, this time removing the ap_high attribute; the motivation for this experiment was to see if—in absence of the assumption that the season had concluded—an increasingly complicated tree consisting of a greater number of attributes was formed. Our hypothesis was confirmed by Weka’s J48 Tree Output:
