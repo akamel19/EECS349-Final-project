@@ -6,46 +6,31 @@ College Basketball has quickly become a global pursuit. Every week, enthusiasts 
 	
 To begin, we gathered data from DataWorld (https://data.world/mkearney/ncaa-mens-cbb-teams) that lists common metrics for evaluating teams:
 
-
 school--Name of the Division One college basketball program.
-
 
 conf--Name of the Division One college basketball conference a program is a part of. 
 
-
 w--Number of games a Division One basketball team won in a specific year.
 
-
 l--Number of games a Division One basketball team lost in a specific year.
- 
- 
+
 wl--Win Loss Percentage, calculated by dividing the number of wins a Division One basketball team won in a specific year by the number of total games played.
- 
- 
+
 srs--A ranking that takes into account average point differential and strength of schedule. The rating is denominated in points above/below average, where zero is average. Non-Division One games are excluding from the ratings.
- 
- 
+
 sos--Strength of Schedule; a measure of how “difficult” a schedule is by denominating points over or under average, where zero is average. Non-Division One games are excluding from the ratings.
- 
- 
+
 pts_for--Average points scored per game by a Division One basketball team.
- 
- 
+
 pts_vs--Points scored against per game by a Division One basketball team.
- 
- 
+
 pts_total--Summation of pts_for and pts_vs.
- 
- 
+
 ap_pre--A number, 1-25 or 30 (not ranked) indicating whether a Division One basketball team was ranked to start the season and--if so--what a team’s rank was.
 
- 
 ap_high--A number, 1-25 or 30 (not ranked) indicating the highest rank on the AP Poll a Division One basketball team reached in a given season.
- 
- 
+
 pts_diff--A difference between pts_for and pts_vs.
- 
- 
 
 A multitude of steps were taken to best prepare this data for analysis. The first of which was to eliminate any extraneous variables—such as rk, ncaa_result, and coaches—not listed above so as to maintain accuracy, relevance, and functionality within Weka experiments. Additionally, to avoid oversimplification, we created a binary variable “ranked_final?” which displays a 1 if a Division One Basketball team is ranked following the final week of the regular season, and 0 if not. Inclusion of the ranked_final? attribute brings the total number of features to 14.  
 
