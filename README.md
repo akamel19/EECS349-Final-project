@@ -38,7 +38,7 @@ After modifying the data and features, we divided our data into two subsets: Tes
 
 To determine the best classifier for the data, we trained a variety of learners over the Training Data, evaluating their performance using 10-Fold cross validation. The results are summarized below:
 
-![alt text](?raw=true)
+![alt text](https://github.com/akamel19/EECS349-Final-project/blob/master/Screen%20Shot%202017-06-01%20at%204.34.54%20PM.png?raw=true)
 
 As shown above, a J48 Decision Tree has the greatest accuracy, precision, and recall when trained over the data and evaluated via 10-Fold cross validation. We therefore chose to adopt a J48 Decision Tree with splits at the features “ap_high” and “l”; a graphic depiction of our tree, as well as quantitative results when applied to the Testing Data, are shown on the next page.
 
