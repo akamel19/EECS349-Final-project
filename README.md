@@ -45,3 +45,16 @@ As shown above, a J48 Decision Tree has the greatest accuracy, precision, and re
 ![alt text](https://github.com/akamel19/EECS349-Final-project/blob/master/Tree.jpg?raw=true)
 
 While analyzing results, we were initially startled by the simplicity of the tree, without sacrificing accuracy; in particular, the inclusion of solely two attributes was cause for concern. To further investigate this situation, we again trained and tested our data on a J48 Decision Tree, this time removing the ap_high attribute; the motivation for this experiment was to see if—in absence of the assumption that the season had concluded—an increasingly complicated tree consisting of a greater number of attributes was formed. Our hypothesis was confirmed by Weka’s J48 Tree Output:
+
+![alt text](https://github.com/akamel19/EECS349-Final-project/blob/master/Weka%20Tree.jpg?raw=true)
+
+The discrepancy in tree complexity corroborates our suspicions of difference in the evaluation methods taken by AP Poll voters with respect to whether the season has been completed or not. In the future, an interesting experiment would be to evaluate J48 Decision trees across various weeks in a NCAA Division One College Basketball season, and evaluate which features have the highest information gain. In this way, we can predict more accurately across various points in a season whether an NCAA Division One College Basketball team will be ranked by the AP Poll or not. 
+
+Nicholas David—Dataset manipulation and classification
+
+Aaron Kamel—Host and Designer of final project website  
+
+Jusitn Savin—Author of final project report
+
+
+
