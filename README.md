@@ -1,7 +1,7 @@
 # AP Poll Ranking Learning Algorithm
 
 ##### Completed for Northwestern EECS 349, taught by Professor Doug Downey
-##### Justin Savin | Nicholas David | Aaron Kamel
+##### Team Members: Justin Savin | Nicholas David | Aaron Kamel
 ##### To contact us please email: justinsavin2019@u.northwestern.edu or nicholasdavid2019@u.northwestern.edu or aaronkamel2019@u.northwestern.edu
 
 ### Abstract
