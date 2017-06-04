@@ -1,3 +1,9 @@
+# AP Poll Ranking Learning Algorithm
+
+## Completed for Northwestern EECS 349, taught by Professor Doug Downey
+## Justin Savin | Nicholas David | Aaron Kamel
+## Email: justinsavin2019@u.northwestern.edu | nicholasdavid2019@u.northwestern.edu | aaronkamel2019@u.northwestern.edu
+
 ### Abstract
 
 College Basketball has quickly become a global pursuit. Every week, enthusiasts from around the world anticipate the release of the AP Poll, a ranking of 25 Division One Basketball teams, indicating the hierarchy in NCAA Division One Basketball. Often the best predictor in whether a team is to make the NCAA tournament, the AP Poll is an amalgamation of votes from hundreds of sports writers, and is thus a data-rich set. Our project centered around the question: Is there a pattern to this data-rich set; specifically, can we model whether a team will be ranked at the end of the season--cementing their place at the top of the college basketball hierarchy--based on common traits of teams that have finished the season ranked?
