@@ -20,11 +20,13 @@ A J48 Decision Tree with splits at "total losses" and "season highest ap poll ra
 
 You can download a more detailed report of our work here: [Final Report](https://github.com/akamel19/EECS349-Final-project/blob/master/AP%20Poll%20Ranking%20Learning%20Algorithm.pdf)
 
-Nicholas David — Dataset manipulation and classification
+The project was broken down into smaller pieces:
 
-Aaron Kamel — Host and Designer of final project website  
+Nicholas David completed the dataset manipulation and classification.
 
-Justin Savin — Author of final project report
+Aaron Kamel is the host and designer of the final project website.
+
+Justin Savin is the author of final project report.
 
 
 
