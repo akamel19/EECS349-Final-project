@@ -16,7 +16,7 @@ College Basketball has quickly become a global pursuit. Every week, enthusiasts 
 To begin, we gathered data from [Data World](https://data.world/mkearney/ncaa-mens-cbb-teams) that lists common metrics for evaluating teams--such as win-loss percentage, total number of wins and losses, and strength of schedule--as well as qualitative features, such as school and conference. Using the machine learning software Weka, we ran a variety of classifiers--including ZeroR, Nearest Neighbor, Decision Trees and Naive Bayes. Ultimately the key finding was that the best results surprisingly came from a very simple J48 Decision Tree, consisting of splits at the features “total losses” and “season highest ap poll rank”, shown below. There was some concern that this simple decision tree was in fact a local minimum, and therefore we trained the decision again on the same data set but without the ap_high attribute. This resulted in a very complex tree, thus revealing that the simple J48 tree was not a local minimum. From the simple J48 tree, we can model a team’s likelihood of finishing a season ranked in the AP Poll consistent for 97.42% of our testing data.
 
 ![alt text](https://github.com/akamel19/EECS349-Final-project/blob/master/CutTree.jpg?raw=true)
-A J48 Decision Tree with splits at "total losses" and "season highest ap poll rank", learned over the data
+A J48 Decision Tree with splits at "total losses" and "season highest ap poll rank", learned over the data is shown above.
 
 You can download a more detailed report of our work here: [Final Report](https://github.com/akamel19/EECS349-Final-project/blob/master/AP%20Poll%20Ranking%20Learning%20Algorithm.pdf)
 
