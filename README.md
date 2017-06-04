@@ -14,7 +14,7 @@ Nicholas David — Dataset manipulation and classification
 
 Aaron Kamel — Host and Designer of final project website  
 
-Jusitn Savin — Author of final project report
+Justin Savin — Author of final project report
 
 
 
