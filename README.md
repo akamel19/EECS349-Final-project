@@ -8,7 +8,7 @@ To begin, we gathered data from DataWorld (https://data.world/mkearney/ncaa-mens
 ![alt text](https://github.com/akamel19/EECS349-Final-project/blob/master/CutTree.jpg?raw=true)
 A J48 Decision Tree with splits at "total losses" and "season highest ap poll rank", learned over the data
 
-
+You can download a more detailed report here: (https://github.com/akamel19/EECS349-Final-project/blob/master/AP%20Poll%20Ranking%20Learning%20Algorithm.pdf)
 
 Nicholas David — Dataset manipulation and classification
 
