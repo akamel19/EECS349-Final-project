@@ -8,6 +8,8 @@ To begin, we gathered data from DataWorld (https://data.world/mkearney/ncaa-mens
 ![alt text](https://github.com/akamel19/EECS349-Final-project/blob/master/CutTree.jpg?raw=true)
 A J48 Decision Tree with splits at "total losses" and "season highest ap poll rank", learned over the data
 
+
+
 Nicholas David — Dataset manipulation and classification
 
 Aaron Kamel — Host and Designer of final project website  
